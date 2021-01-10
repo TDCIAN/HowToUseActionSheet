@@ -15,10 +15,8 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-
-
     @IBAction func UseActionSheet(_ sender: UIButton) {
-        
+        print("버튼 성능 확실하구만")
     }
 }
 
