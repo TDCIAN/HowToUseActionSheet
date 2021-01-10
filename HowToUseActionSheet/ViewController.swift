@@ -44,6 +44,9 @@ class ViewController: UIViewController {
         actionSheet.addAction(third)
         actionSheet.addAction(cancel)
         
+        // 글씨 색상을 변경하고 싶다면
+        actionSheet.view.tintColor = .systemPurple
+        
         present(actionSheet, animated: true, completion: nil)
     }
 }
